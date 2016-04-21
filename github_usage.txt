@@ -2,7 +2,7 @@
 git init      //建立git环境，生成。git文件夹
 git add ***    //添加上传文件名，将文件添加到索引
 git commit -m "first commit"   //增加版本标记，确认上传到本地仓库（本地仓库用户不可见）
-git remote add origin https://github.com/kakaxixi/-.git  //云端项目所在网址
+git remote add origin https://github.com/kakaxixi/-.git  //将云端项目所在网址绑定到origin上
 git push -u origin master    //将本地仓库的文件上传至云端
 
 下载云端文件至本地
