@@ -24,4 +24,5 @@ git status   //查看哪些文件被更改过
 git pull origin master
 
 6、生成patch文件
-git diff commita commitb 
+更改文件后，执行
+git diff head >patch
