@@ -25,4 +25,5 @@ git pull origin master
 
 6、生成patch文件
 更改文件后，执行
-git diff head >patch
+git diff
+git diff head >xxx.patch
